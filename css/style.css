@@ -826,9 +826,20 @@ h3 .my-profession
     }
     .home .home-img
     {
+        /* display: none; */
+        margin-top: 3rem;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media(max-width:342px)
+{
+    .home .home-img::after,
+    .home .home-img::before{
         display: none;
     }
 }
+
 @media(max-width:767px)
 {
     .contact .contact-form .col-6,
