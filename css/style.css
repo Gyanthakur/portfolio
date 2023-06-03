@@ -101,6 +101,7 @@ ul{
     top: 100%;
     left: 0;
 }
+
 .section-title h2::after
 {
     content: '';
@@ -556,6 +557,83 @@ h3 .my-profession
     font-size: 16px;
     text-align: justify;
     color: var(--text-black-700);
+}
+/* skill section  */
+
+.language{
+    padding: 1rem;
+    margin: 2rem;
+    height: 7rem;
+    width: 7rem;
+}
+.lng_name{
+    align-items:normal;
+}
+
+
+.skill .container
+{
+    padding-bottom: 40px;
+
+}
+.skill .skill-item
+{
+    margin-bottom: 30px;
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+.skill .skill-item .skill-item-inner
+{
+    background-color: var(--bg-black-100);
+    border: 1px solid var(--bg-black-50);
+    border-radius: 10px;
+    padding: 30px 15px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.skill .skill-item .skill-item-inner:hover
+{
+    box-shadow: 0 0 20px rgb(48,46,77,0.15);
+}
+.skill .skill-item .skill-item-inner .icon
+{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+.skill .skill-item .skill-item-inner .icon .fa
+{
+    font-size: 40px;
+    line-height: 60px;
+    color: var(--skin-color);
+    transition: all 0.3s ease;
+}
+.skill .skill-item .skill-item-inner:hover .icon
+{
+    background: var(--skin-color);
+}
+.skill .skill-item .skill-item-inner:hover .icon .fa
+{
+    font-size: 25px;
+    color: #ffffff;
+}
+.skill .skill-item .skill-item-inner h4
+{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: var(--text-black-900);
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.skill .skill-item .skill-item-inner p
+{
+    font-size: 16px;
+    color: var(--text-black-700);
+    line-height: 25px;
 }
 
 /* services */
