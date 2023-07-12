@@ -97,3 +97,14 @@
 .gyan li:nth-child(4):hover span{
   background: #FCEB00 !important;
 }
+
+
+@media(max-width:320px)
+{
+  .gyan
+  {
+        flex: 0 0 50%;
+        max-width: 50%;
+  }
+
+}
