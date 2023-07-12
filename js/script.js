@@ -11,3 +11,12 @@ var typed = new Typed(".typing1",{
     BackSpeed:60,
     loop:true
 })
+
+
+
+const hamburger_menu = document.querySelector(".hamburger-menu");
+const container = document.querySelector(".container1");
+
+hamburger_menu.addEventListener("click", () => {
+  container.classList.toggle("active");
+});
