@@ -14,9 +14,9 @@ var typed = new Typed(".typing1",{
 
 
 
-const hamburger_menu = document.querySelector(".hamburger-menu");
-const container = document.querySelector(".container1");
+// var hamburger_menu = document.querySelector(".hamburger-menu");
+// var container = document.querySelector(".container1");
 
-hamburger_menu.addEventListener("click", () => {
-  container.classList.toggle("active");
-});
+// hamburger_menu.addEventListener("click", () => {
+//   container.classList.toggle("active");
+// });
