@@ -87,22 +87,22 @@
   opacity: .2;
 }
 .gyan li:nth-child(1):hover span{
-  background: #52E19F !important;
+  background: #3b5998 !important;
 }
 .gyan li:nth-child(2):hover span{
-  background: #2C3456 !important;
+  background: #171515 !important;
 }
 .gyan li:nth-child(3):hover span{
-  background: #EA6E96 !important;
+  background: #E4405F !important;
 }
 .gyan li:nth-child(4):hover span{
-  background: #FCEB00 !important;
+  background: blue !important;
 }
 
 
-/* @media(max-width:320px)
+/* @media(max-width:20px)
 {
-  .gyan
+  .gyan li
   {
         flex: 0 0 50%;
         max-width: 50%;
