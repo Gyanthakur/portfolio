@@ -9,6 +9,7 @@
   justify-content: center;
   min-height: 20vh;
   /* background: #00071C; */
+  background: var(--bg-black-600);
 }
  .gyan
  {
